@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<body style="background: linear-gradient(0deg, rgba(107,39,218,1) 0%, rgba(199,128,233,1) 55%, rgba(255,255,255,1) 100%)">
+  
+    <div style="font-family:Arial">
+        <div class="text-center" style="margin-top:50px">
+            <h1 class="display-4">Students List</h1>
+        </div>
+
+        @model IEnumerable<Lab08.Models.Student>
+            @{
+                ViewBag.Title = "All users";
+            }
+            <br></br>
+            <a class="myButton" asp-action="Create" style="margin-left: 500px; display: inline-block; text-decoration: none; border-radius: 3px; color: #fff; background: #6b27da; padding: 7px;
+                    box-shadow: 4px 8px 15px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); border-radius:9px ">
+                Add new student
+            </a>
+            <br></br>
+            <table class="table" style="margin-top: 10px; font-weight: bold; background-color: #8a87da; border-radius:20px ">
+                <tr style="border:hidden">
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Second Name</td>
+                    <td>Faculty</td>
+                    <td>Performance</td>
+                    <td>Age</td>
+                    <td>Actions</td>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr style="border:hidden">
+
+                        <td>@item.StudentId</td>
+                        <td>@item.FirstName</td>
+                        <td>@item.SecondName</td>
+                        <td>@item.Faculty</td>
+                        <td>@item.AcademicPerformance</td>
+                        <td>@item.Age</td>
+                        <td>
+                            <a asp-action="Edit" asp-controller="Home" asp-route-id="@item.StudentId" style= "display: inline-block; text-decoration: none; border-radius: 3px; color: #fff; background: #0f609c; padding: 7px; box-shadow: 4px 8px 15px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); border-radius: 9px; font-size: 9pt " >
+                            Change
+                            </a>
+                            <a asp-action="Delete" asp-controller="Home" asp-route-id="@item.StudentId" style= "display: inline-block; text-decoration: none; border-radius: 3px; color: #fff; background: #e23069; padding: 7px; box-shadow: 4px 8px 15px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); border-radius: 9px; font-size: 9pt " >
+                            Remove Student
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </body>

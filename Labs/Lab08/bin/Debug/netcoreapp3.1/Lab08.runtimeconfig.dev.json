@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Vadimqa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vadimqa\\.nuget\\packages"
+    ]
+  }
+}

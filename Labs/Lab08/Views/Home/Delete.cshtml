@@ -1,0 +1,48 @@
+@model Lab08.Models.Student
+@{
+    ViewBag.Title = "Удаление Студента";
+}
+
+<body style="background: linear-gradient(0deg, rgba(107,39,218,1) 0%, rgba(199,128,233,1) 55%, rgba(255,255,255,1) 100%)">
+    <div style="text-align:center">
+        <h1>
+            Info about student we are deleting
+        </h1>
+        <br /><br />
+        <dl class="dl-horizontal" style="background-color: darkred; width: 500px; margin-left: 300px;  background-color: #8a87da; border-radius: 20px; box-shadow: 4px 8px 15px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ">
+
+            <dt>Name</dt>
+            <dd>
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+
+            <dt>Second Name</dt>
+            <dd>
+                @Html.DisplayFor(model => model.SecondName)
+            </dd>
+
+            <dt>Faculty</dt>
+            <dd>
+                @Html.DisplayFor(model => model.Faculty)
+            </dd>
+
+            <dt>Performance</dt>
+            <dd>
+                @Html.DisplayFor(model => model.AcademicPerformance)
+            </dd>
+
+            <dt>Age</dt>
+            <dd>
+                @Html.DisplayFor(model => model.Age)
+            </dd>
+        </dl>
+
+        <div>
+            <form asp-controller="Home" asp-action="Delete" method="post">
+                <div class="form-group" style="margin-top:50px">
+                    <input type="submit" class="btn btn-default" value="Remove" style="background-color: #e23069; padding: 7px; box-shadow: 4px 8px 15px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); border-radius: 9px; color: #fff" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

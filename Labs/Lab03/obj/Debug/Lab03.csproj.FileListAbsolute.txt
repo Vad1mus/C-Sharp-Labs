@@ -1,0 +1,14 @@
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab03.exe.config
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab03.exe
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab03.pdb
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab01_01.exe
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab02.exe
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab01_01.pdb
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab01_01.exe.config
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab02.pdb
+D:\VisualStudio_Projects\Labs\Lab03\bin\Debug\Lab02.exe.config
+D:\VisualStudio_Projects\Labs\Lab03\obj\Debug\Lab03.csproj.AssemblyReference.cache
+D:\VisualStudio_Projects\Labs\Lab03\obj\Debug\Lab03.csproj.CoreCompileInputs.cache
+D:\VisualStudio_Projects\Labs\Lab03\obj\Debug\Lab03.csproj.CopyComplete
+D:\VisualStudio_Projects\Labs\Lab03\obj\Debug\Lab03.exe
+D:\VisualStudio_Projects\Labs\Lab03\obj\Debug\Lab03.pdb

@@ -1,0 +1,17 @@
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab06.exe.config
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab06.exe
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab06.pdb
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab01_01.exe
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab02.exe
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab03.exe
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab01_01.pdb
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab01_01.exe.config
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab02.pdb
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab02.exe.config
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab03.pdb
+D:\VisualStudio_Projects\Labs\Lab06\bin\Debug\Lab03.exe.config
+D:\VisualStudio_Projects\Labs\Lab06\obj\Debug\Lab06.csproj.AssemblyReference.cache
+D:\VisualStudio_Projects\Labs\Lab06\obj\Debug\Lab06.csproj.CoreCompileInputs.cache
+D:\VisualStudio_Projects\Labs\Lab06\obj\Debug\Lab06.csproj.CopyComplete
+D:\VisualStudio_Projects\Labs\Lab06\obj\Debug\Lab06.exe
+D:\VisualStudio_Projects\Labs\Lab06\obj\Debug\Lab06.pdb
